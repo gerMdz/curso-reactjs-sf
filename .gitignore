@@ -1,0 +1,22 @@
+/node_modules/*
+/public/build/*
+
+###> symfony/framework-bundle ###
+.env
+/app/
+/public/bundles/
+/var/
+/vendor/
+/web/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+.web-server-pid
+###< symfony/web-server-bundle ###
+.idea
+/.idea
