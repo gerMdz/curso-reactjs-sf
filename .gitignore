@@ -20,3 +20,5 @@
 ###< symfony/web-server-bundle ###
 .idea
 /.idea
+
+/src/Migrations/
