@@ -97,4 +97,4 @@ const root = createRoot(document.getElementById('lift-stuff-app'));
 root.render(el);
 
 ### Next
-[Cap 2](https://symfonycasts.com/screencast/reactjs/react-create-element#play)
+[Cap 3](https://symfonycasts.com/screencast/reactjs/jsx#play)
