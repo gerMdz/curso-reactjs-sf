@@ -7,6 +7,8 @@
     "eslint": "^8.38.0",
     "font-awesome": "4",
     "jquery": "^3.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.29.0",
     "sass-loader": "^7.0.0",
     "sweetalert2": "^7.11.0",

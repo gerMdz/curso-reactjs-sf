@@ -83,5 +83,18 @@ open an issue or message us.
 ### Cap 1
 * eslint
 
+### Cap 2
+> // A) the import is slightly different
+import { createRoot } from 'react-dom/client';
+
+
+>// B) exactly the same as before
+const el = React.createElement('h2', null, 'Lift History!');
+
+>// C) to render, you now create a "root" element
+//    then render into it
+const root = createRoot(document.getElementById('lift-stuff-app'));
+root.render(el);
+
 ### Next
 [Cap 2](https://symfonycasts.com/screencast/reactjs/react-create-element#play)
