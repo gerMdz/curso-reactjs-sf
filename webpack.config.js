@@ -28,6 +28,7 @@ Encore
     .enableSourceMaps(!Encore.isProduction())
     .cleanupOutputBeforeBuild()
     .enableVersioning(Encore.isProduction())
+    .enableReactPreset()
 
     .configureBabel((babelConfig) => {
 
