@@ -1,7 +1,14 @@
 import React, {Component} from "react";
 
-class RepLogApp extends Component{
+export default class RepLogApp extends Component{
     render() {
-        return <h2> Historial de levantamientos <span> :heart: </span></h2>
+        let heart = '';
+        if (this.props.withHeart) {
+            heart = <span>❤️</span>;
+        }
+        return (
+            <h2>Historial de Levantamientos! {heart}</h2>
+        );
     }
 }
+

@@ -1,31 +1,13 @@
-import React from "react";
-// import ReactDom from 'react-dom';
+import React from 'react';
 import { render } from 'react-dom';
+import RepLogApp from './RepLog/RepLogApp';
 
-import RepLogApp from "./Components/RepLogApp";
+const shouldShowHeart = true;
 
-import {createRoot} from 'react-dom/client';
-// const el = React.createElement(
-//     'h2',
-//     null,
-//     'Historial de levantamientos',
-//     React.createElement('span', null, ' :heat:')
-//
-// );
-// const el = React.createElement(
-//     'h2',
-//     null,
-//     'Historial de levantamientos ',
-//     React.createElement('span', null, ':heart:')
-//     )
-
-
-
-
-
-
-// const root = createRoot(document.getElementById('levantar-cosas-app'));
-// root.render(el);
-
-
-render(<RepLogApp />, document.getElementById('levantar-cosas-app'))
+render(
+    <RepLogApp
+        withHeart={shouldShowHeart}
+        {...window.REP_LOG_APP_PROPS}
+    />,
+    document.getElementById('levantar-cosas-app')
+);
